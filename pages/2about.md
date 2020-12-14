@@ -16,6 +16,11 @@ icon: glyphicon-heart
 
 ---
 
+### 关于模板
+来源：[Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)
+
+---
+
 ### 关于本站   
 
 记录学习过程
