@@ -27,6 +27,7 @@ categories: problems
 	    component: NewLead2,
 	  }
 	  from: "/home", to: "/home/newlead"
+
 在打开“/home/newlead”时出现报错
 > newlead:17 GET http://0.0.0.0:2047/home/static/js/main-bundle-33e41f3b.js net::ERR_ABORTED 404 (Not Found)
 > 
