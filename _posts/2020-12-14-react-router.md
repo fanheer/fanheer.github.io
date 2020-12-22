@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "二 引入react-router"
-date:   2020-12-14 15:14:54
+date:   2020-12-22 15:51:54
 categories: problems
 ---
 ## 1.安装react-router-dom
@@ -27,7 +27,7 @@ categories: problems
 	    component: NewLead2,
 	  }
 	  from: "/home", to: "/home/newlead"
-在打开“/home/newlead”是出现报错
+在打开“/home/newlead”时出现报错
 > newlead:17 GET http://0.0.0.0:2047/home/static/js/main-bundle-33e41f3b.js net::ERR_ABORTED 404 (Not Found)
 > 
 > newlead:1 Refused to apply style from 'http://0.0.0.0:2047/home/main.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
