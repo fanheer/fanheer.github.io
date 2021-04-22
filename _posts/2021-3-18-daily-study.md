@@ -5,7 +5,7 @@ date:   2021-3-18 19:19:54
 categories: problems
 ---
 
-###1. Array.filter(Boolean)
+## 1. Array.filter(Boolean)
 
 ECMAScirpt5 中 Array 类中的 filter 方法使用目的是移除所有的 ”false“ 类型元素 (false, null, undefined, 0, NaN or an empty string)。
 	
@@ -20,7 +20,8 @@ b = a.filter(Boolean);
 b = a.filter(function (x) { return Boolean(x); });
 ```
 
-###2. 正则表达式
+
+## 2. 正则表达式
 
 `参考 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions`
 
@@ -30,7 +31,8 @@ b = a.filter(function (x) { return Boolean(x); });
 	RegExp对象的构造函数：var re = new RegExp("ab+c");
 
 
-###3. transition不支持display属性
+
+## 3. transition不支持display属性
 
 * 想让display从none变为block，或者从block变为none时，实现这样的动画效果大多数人都会采用transition，但transition并不支持display。那么能想到的办法就是使用visibility属性实现从visible到hidden的转换。
 * 但是visibility和display是有区别的，display隐藏的元素是脱离文档流的，它不在页面中占用空间；而visibility: hidden的元素会在页面上留白。所以还是display的用法好一点。
