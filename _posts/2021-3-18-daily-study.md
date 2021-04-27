@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "四 每日学习"
+title:  "四 每日学习(array.filter,正则表达式,transition)"
 date:   2021-3-18 19:19:54
-categories: problems
+categories: 每日学习
 ---
 
 ## 1. Array.filter(Boolean)

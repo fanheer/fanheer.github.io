@@ -2,7 +2,7 @@
 layout: post
 title:  "三 前端冷知识"
 date:   2021-1-4 15:51:54
-categories: problems
+categories: 每日学习
 ---
 
 1. console.log恶搞
