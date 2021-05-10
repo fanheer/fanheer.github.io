@@ -1,6 +1,47 @@
 ---
 layout: default
 ---
-<div class="post-area post">
-   小布丁
+<style>
+    .ice{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .drawer{
+        width: 80%;
+        height: 60%;
+        border: 1px solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .icecream{
+        width: 20vw;
+        height: 20vw;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<div class="ice">
+   冰柜
+   <div class="drawer">
+       <div class="icecream" onclick="chooseit('小布丁')">小布丁</div>
+       <div class="icecream" onclick="chooseit('绿舌头')">绿舌头</div>
+       <div class="icecream" onclick="chooseit('老冰棒')">老冰棒</div>
+       <div class="icecream" onclick="chooseit('梦龙')">梦龙</div>
+       <div class="icecream" onclick="chooseit('明治')">明治</div>
+       <div class="icecream" onclick="chooseit('八坨')">八坨</div>
+       <div class="icecream" onclick="chooseit('苦咖啡')">苦咖啡</div>
+       <div class="icecream" onclick="chooseit('绿色心情')">绿色心情</div>
+       <div class="icecream" onclick="chooseit('东北大板')">东北大板</div>
+   </div>
 </div>
+<script>
+    function chooseit(item){
+        alert('你选择了' + item)
+    }
+</script>
