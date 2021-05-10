@@ -1,11 +1,36 @@
 ---
 layout: post
-title:  "四 每日学习(2)"
+title:  "五 每日学习(2)(let和const,less和sass)"
 date:   2021-4-22 14:21:03
 categories: 每日学习
 ---
 
-## 1. less和sass
+### 1. let（理解闭包）和const命令
+
+  es6引入let前js中没有块级作用域。
+
+  var声明的变量由于不存在块级作用域所以可以在全局环境中调用，而let声明的变量由于存在块级作用域所以不能在全局环境中调用。
+
+  理解闭包，案例：
+```javascript
+    var a=[];
+        for(var i=0;i<10;i++){ // i是全局变量 会影响后面的i
+            a[i]=function(){
+                console.log(i);
+            };
+        }
+    a[6]();    //10    
+
+    var a=[];
+    for(let i=0;i<10;i++){// i是局部变量 会影响后面的i
+        a[i]=function(){
+            console.log(i);
+        };
+    }
+    a[6]();    //6  
+```
+
+### 2. less和sass
 
 Sass和Less都属于CSS预处理器。
 
